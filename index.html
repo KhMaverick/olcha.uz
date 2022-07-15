@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../3-dars/icons/fontawesome-free-6.1.1-web/css/all.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.5.3/dist/css/swiffy-slider.min.css" rel="stylesheet"
+        crossorigin="anonymous">
+    <title>olcha.uz</title>
+</head>
+
+<body>
+    <div class="header">
+        <div class="header2">
+            <div class="row px-3 py-2 w-100">
+                <div class="col-2">
+                    <h2 class="text-danger">olcha.uz</h2>
+                </div>
+                <div class="col-5">
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" id="Search" type="search" placeholder="Search"
+                            aria-label="Search">
+                        <!-- <button class="btn btn-outline-success" id="Search" type="submit">Search</button> -->
+                    </form>
+                </div>
+                <div class="col-5">
+                    <div class="d-flex justify-content-between">
+                        <p class="fs-5">Войти</p>
+                        <p class="fs-5">Избранное</p>
+                        <p class="fs-5">Сравнение</p>
+                        <p class="fs-5">Корзина</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="ms-2 mt-4">
+        <p class="fs-2">Популярные товары</p>
+    </div>
+
+    <div class="container mb-5">
+        <div class="swiffy-slider slider-nav-dark slider-item-show4 slider-indicators-square">
+            <ul class="slider-container" id="ul">
+
+            </ul>
+
+            <button type="button" class="slider-nav"></button>
+            <button type="button" class="slider-nav slider-nav-next"></button>
+
+            <ul class="slider-indicators">
+                <li class=""></li>
+                <li class=""></li>
+                <li class=""></li>
+                <li class="active"></li>
+                <li class=""></li>
+                <li class=""></li>
+                <li class=""></li>
+                <li class=""></li>
+                <li class=""></li>
+            </ul>
+        </div>
+    </div>
+
+
+    <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1"
+        id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Купленные вами товары: </h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body" id="spit">
+
+        </div>
+    </div>
+
+
+    <script src="jQuery.js"></script>
+    <script src="main.js"></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="../3-dars/icons/fontawesome-free-6.1.1-web/js/all.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.5.3/dist/js/swiffy-slider.min.js" crossorigin="anonymous"
+        defer></script>
+</body>
+
+</html>
